@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>기술지원위원회</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cover-container d-flex align-items-center">
+      <main class="px-3">
+        <h1 class="display-5 fw-bold"><span>기술지원위원회</span></h1>
+        <h3>The final step before becoming a developer</h3>
+        <h5>
+          우리는 웹 개발자가 되기 위한 학생들을 위해 실전 같은 경험을
+          제공합니다.
+        </h5>
+        <p class="lead">
+          저희 기술 지원 위원회는
+          <span class="under"
+            >동아리연합회 산하 단체로, 멋쟁이사자처럼과 함께 운영되고 있는
+            단체입니다.</span
+          >
+          저희는 동아리연합회와 함께 서비스를 구축하며 유지보수를 도와주고,
+          새로운 프로젝트를 꾸준히 진행하고 있습니다. 대학생은 실무에서 경험과
+          노하우를 배우며 진로를 세부적으로 검증할 수 있고, 창의력을 키워나갈 수
+          있는 기회가 될 것입니다.
+        </p>
+      </main>
+    </div>
+    <div class="container mx-auto my-5">
+      <div class="text-center team-text">
+        <h1 class="display-5 fw-bold">팀원</h1>
+      </div>
+
+      <div class="row">
+        <div
+          class="
+            col-md-4 col-sm-6 col-6
+            mx-auto
+            align-items-stretch
+            d-flex
+            justify-content-center
+          "
+        >
+          <div class="card">
+            <img
+              src="image/강동헌.png"
+              class="card-img-top prof-img"
+              alt="..."
+            />
+            <div class="card-body align-self-center d-flex flex-column">
+              <h5 class="card-title mt-auto">강동헌 (개발팀장)</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          class="
+            col-md-4 col-sm-6 col-6
+            mx-auto
+            align-items-stretch
+            d-flex
+            justify-content-center
+          "
+        >
+          <div class="card">
+            <img
+              src="image/최민규.png"
+              class="card-img-top prof-img"
+              alt="..."
+            />
+            <div class="card-body align-self-center d-flex flex-column">
+              <h5 class="card-title mt-auto">최민규 (개발팀장)</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          class="
+            col-md-4 col-sm-6 col-6
+            mx-auto
+            align-items-stretch
+            d-flex
+            justify-content-center
+          "
+        >
+          <div class="card">
+            <img
+              src="image/김태원.png"
+              class="card-img-top prof-img"
+              alt="..."
+            />
+            <div class="card-body align-self-center d-flex flex-column">
+              <h5 class="card-title mt-auto">김태원</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          class="
+            col-md-4 col-sm-6 col-6
+            mx-auto
+            align-items-stretch
+            d-flex
+            justify-content-center
+          "
+        >
+          <div class="card">
+            <img
+              src="image/조민재.png"
+              class="card-img-top prof-img"
+              alt="..."
+            />
+            <div class="card-body align-self-center d-flex flex-column">
+              <h5 class="card-title mt-auto">조민재</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          class="
+            col-md-4 col-sm-6 col-6
+            mx-auto
+            align-items-stretch
+            d-flex
+            justify-content-center
+          "
+        >
+          <div class="card">
+            <img
+              src="image/김지윤.png"
+              class="card-img-top prof-img"
+              alt="..."
+            />
+            <div class="card-body align-self-center d-flex flex-column">
+              <h5 class="card-title mt-auto">김지윤</h5>
+            </div>
+          </div>
+        </div>
+        <div
+          class="
+            col-md-4 col-sm-6 col-6
+            mx-auto
+            align-items-stretch
+            d-flex
+            justify-content-center
+          "
+        >
+          <div class="card">
+            <img
+              src="image/김서진.png"
+              class="card-img-top prof-img"
+              alt="..."
+            />
+            <div class="card-body align-self-center d-flex flex-column">
+              <h5 class="card-title mt-auto">김서진</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module">
+      import { annotate } from "https://unpkg.com/rough-notation?module";
+
+      const n1 = document.querySelector("span");
+      const n4 = document.querySelector(".under");
+
+      const a1 = annotate(n1, { type: "underline", color: "#66bd84" });
+      const a4 = annotate(n4, {
+        type: "highlight",
+        color: "yellow",
+        iterations: 2,
+        multiline: true,
+      });
+
+      a1.show();
+      a4.show();
+    </script>
+  </body>
+</html>

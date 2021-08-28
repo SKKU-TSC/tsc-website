@@ -13,12 +13,23 @@ body {
 }
 
 .cover-container {
-  height: 100vh !important;
-  padding: 0 20%;
+  padding: 0% 20%;
+  height: 100vh;
+}
+
+.second-container {
+  height: auto !important;
+}
+
+.card-container {
+  display: flex;
+  justify-content:center;
+  align-items: center;
 }
 
 .prof-img {
   width: 200px;
+  height: 200px;
   margin: auto;
 }
 
@@ -28,18 +39,30 @@ body {
 }
 
 .card-title {
-  font-size: 30px
+  font-size: 30px;
 }
 
 .team-text {
-    margin: 90px;
+  margin: 90px;
 }
 
-@media only screen and (max-width: 425px) {
-.cover-container {
-    padding: 5%;
+.product-icon {
+  width: 30%;
 }
+
+.rounded-5 {
+  border-radius: 1rem;
+}
+
+
+@media only screen and (max-width: 425px) {
+  .cover-container {
+    padding: 5%;
+  }
   .prof-img {
     width: 100%;
+  }
+  .main-text {
+    font-size: 16px !important;
   }
 }
